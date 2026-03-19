@@ -32,3 +32,13 @@ The system monitors user activity and detects inactivity during the checkout pro
 ## 📊 Purpose
 This prototype demonstrates how UX optimization and simple automation techniques can significantly reduce cart abandonment in e-commerce platforms.
 
+
+## 🧪 Future Improvements
+- Integration with real payment gateways  
+- Backend database support  
+- AI-based personalized recommendations  
+- Email-based cart recovery system  
+
+## 👨‍💻 Author
+Developed as part of a university project for demonstrating innovative e-commerce solutions.
+
