@@ -42,3 +42,7 @@ This prototype demonstrates how UX optimization and simple automation techniques
 ## 👨‍💻 Author
 Developed as part of a university project for demonstrating innovative e-commerce solutions.
 
+## 📸 Preview
+<img width="2541" height="1287" alt="image" src="https://github.com/user-attachments/assets/3792e175-d4b2-4814-bb70-c1942060feb6" />
+
+
