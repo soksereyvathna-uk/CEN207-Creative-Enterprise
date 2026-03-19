@@ -1,0 +1,105 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  margin: 20px 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: white;
+  padding: 35px;
+  width: 360px;
+  border-radius: 15px;
+  box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.price-box {
+  margin-top: 15px;
+  font-size: 18px;
+}
+
+.original {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.discounted {
+  color: #764ba2;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+input, select {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  margin-top: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.primary {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: white;
+}
+
+.secondary {
+  background: #eee;
+}
+
+/* POPUP */
+#popup {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background: white;
+  padding: 20px;
+  width: 260px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+
+.hidden {
+  display: none;
+}
+
+#success {
+  display: none;
+  text-align: center;
+  color: green;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+#status {
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: bold;
+}

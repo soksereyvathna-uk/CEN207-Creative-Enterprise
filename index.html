@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>OneStop Smart Checkout</title>
+
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<h1>🛒 OneStop Smart Checkout</h1>
+
+<div class="container">
+
+  <!-- CART -->
+  <div class="card">
+    <h2>Cart</h2>
+
+    <div class="cart-item">
+      <span>🎧 Headphones</span>
+      <span>$50</span>
+    </div>
+
+    <div class="cart-item">
+      <span>👕 T-shirt</span>
+      <span>$30</span>
+    </div>
+
+    <input type="text" id="discount" placeholder="Enter code (SAVE10)">
+    <button onclick="applyDiscount()">Apply Discount</button>
+
+    <div class="price-box" id="priceBox">
+      <div class="discounted">Total: $<span id="total">80</span></div>
+    </div>
+
+    <div id="status"></div>
+  </div>
+
+  <!-- CHECKOUT -->
+  <div class="card">
+    <h2>Checkout</h2>
+
+    <form id="form">
+      <input type="text" placeholder="Full Name" required>
+      <input type="email" placeholder="Email" required>
+      <input type="text" placeholder="Address" required>
+
+      <select required>
+        <option value="">Payment Method</option>
+        <option>Credit Card</option>
+        <option>PayPal</option>
+      </select>
+
+      <button class="primary" type="submit">Complete Purchase</button>
+    </form>
+
+    <button class="secondary" onclick="guestCheckout()">Guest Checkout</button>
+
+    <div id="success">✅ Purchase Successful!</div>
+  </div>
+
+</div>
+
+<!-- POPUP -->
+<div id="popup" class="hidden">
+  <p>⚠️ Complete your purchase now and get 10% OFF!</p>
+  <button onclick="applyPopupDiscount()">Apply 10% & Continue</button>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
